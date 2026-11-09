@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML Links and Navigation</title>
+</head>
+
+<body id="top">
+
+    <!-- MAIN HEADING -->
+    <h1>My Favourite Anime</h1>
+
+    <p>Welcome to my anime website! Explore my favourite anime below.</p>
+
+
+    <!-- 1. NAVIGATION MENU -->
+    <nav>
+        <a href="#attack-on-titan">Attack on Titan</a> |
+        <a href="#death-note">Death Note</a> |
+        <a href="#fullmetal">Fullmetal Alchemist Brotherhood</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <hr>
+
+
+    <!-- 2. SECTION ONE: ATTACK ON TITAN -->
+    <section>
+        <h2 id="attack-on-titan">Attack on Titan</h2>
+
+        <p>
+            Attack on Titan is known for its mystery, suspense,
+            character development, and unpredictable story.
+        </p>
+
+        <!-- ABSOLUTE URL: LINK TO AN EXTERNAL WEBSITE -->
+        <a href="https://en.wikipedia.org/wiki/Attack_on_Titan"
+           target="_blank"
+           rel="noopener">
+            Learn More About Attack on Titan
+        </a>
+
+        <br><br>
+
+        <!-- CLICKABLE IMAGE -->
+        <!-- Replace the image path with your own image file. -->
+        <a href="https://en.wikipedia.org/wiki/Attack_on_Titan" target="_blank" rel="noopener">
+            <img src="images/attack-on-titan.jpg"
+                 alt="Attack on Titan anime image"
+                 width="250">
+        </a>
+    </section>
+
+    <hr>
+
+
+    <!-- 3. SECTION TWO: DEATH NOTE -->
+    <section>
+        <h2 id="death-note">Death Note</h2>
+
+        <p>
+            Death Note follows a battle of intelligence, strategy,
+            mystery, and psychological tension.
+        </p>
+
+        <a href="https://en.wikipedia.org/wiki/Death_Note"
+           target="_blank"
+           rel="noopener">
+            Learn More About Death Note
+        </a>
+    </section>
+
+    <hr>
+
+
+    <!-- 4. SECTION THREE: FULLMETAL ALCHEMIST -->
+    <section>
+        <h2 id="fullmetal">Fullmetal Alchemist: Brotherhood</h2>
+
+        <p>
+            This anime follows two brothers searching for a way
+            to restore what they lost through alchemy.
+        </p>
+
+        <a href="https://en.wikipedia.org/wiki/Fullmetal_Alchemist:_Brotherhood"
+           target="_blank"
+           rel="noopener">
+            Learn More About Fullmetal Alchemist
+        </a>
+    </section>
+
+    <hr>
+
+
+    <!-- 5. RELATIVE URL: LINK TO ANOTHER HTML FILE -->
+    <section>
+        <h2>Explore More</h2>
+
+        <!-- Works when about.html exists beside index.html. -->
+        <a href="about.html">Visit Our About Page</a>
+
+        <br><br>
+
+        <!-- Works when services.html is inside a folder named pages. -->
+        <a href="pages/services.html">Explore Our Services</a>
+
+        <br><br>
+
+        <!-- Goes up one directory, then opens index.html. -->
+        <!-- Example: use this path from a page inside the pages folder. -->
+        <a href="../index.html">Return to the Parent Folder's Homepage</a>
+    </section>
+
+    <hr>
+
+
+    <!-- 6. EMAIL AND PHONE LINKS -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+
+        <!-- EMAIL LINK -->
+        <p>
+            <a href="mailto:example@email.com?subject=Anime%20Enquiry">
+                Send Us an Email
+            </a>
+        </p>
+
+        <!-- PHONE LINK -->
+        <p>
+            <a href="tel:+2348012345678">
+                Call Us
+            </a>
+        </p>
+    </section>
+
+    <hr>
+
+
+    <!-- 7. LINK BACK TO A SECTION ON THIS PAGE -->
+    <p>
+        <a href="#top">Back to the Top</a>
+    </p>
+
+</body>
+</html>
+```
+
+
+
+
+
+

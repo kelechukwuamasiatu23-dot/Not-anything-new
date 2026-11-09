@@ -1,0 +1,1 @@
+console.log("My VS Code environment is officially linked!");

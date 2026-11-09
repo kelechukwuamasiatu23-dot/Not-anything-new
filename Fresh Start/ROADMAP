@@ -1,0 +1,28 @@
+* **Day 1: HTML Fundamentals**
+* **Topics:** What HTML is, tags and elements, attributes, HTML boilerplate, document structure, `<head>`, `<body>`, `<title>`, and VS Code setup.
+* **Status:** 🟡 Mostly covered
+
+
+* **Day 2: Text & Formatting**
+* **Topics:** `<h1>`–`<h6>`, `<p>`, `<br>`, `<strong>`, `<b>`, `<em>`, `<i>`, `<mark>`, comments, `<hr>`, `<u>`, `<s>`, `<small>`, `<sup>`, `<sub>`, and HTML entities.
+* **Status:** 🟡 Partially covered
+
+
+* **Day 3: Links, Images & Lists**
+* **Topics:** `<a>`, `href`, absolute/relative URLs, navigation, `mailto:`, `tel:`, fragment links, `<img>`, alt, file paths, `<ol>`, `<ul>`, and `<li>`.
+* **Status:** 🟡 Links introduced; lesson unfinished
+
+
+* **Day 4: Tables & Forms**
+* **Topics:** `<table>`, `<tr>`, `<th>`, `<td>`, `<form>`, inputs, labels, buttons, dropdowns, checkboxes, radio buttons, GET vs POST, and validation.
+* **Status:** ⬜ Not covered
+
+
+* **Day 5: Semantic HTML & Professional Practices**
+* **Topics:** `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`, `<footer>`, accessibility, metadata, SEO, and favicons.
+* **Status:** ⬜ Not covered; basic metadata introduced earlier
+
+
+* **Day 6: Media, Revision & Projects**
+* **Topics:** Audio, video, `<iframe>`, `<picture>`, debugging, revision, practical projects, and final assessment.
+* **Status:** ⬜ Not covered

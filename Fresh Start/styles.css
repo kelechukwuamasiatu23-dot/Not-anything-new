@@ -1,0 +1,35 @@
+/* Universal reset applied */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 1. Responsive Container using min/max and relative units */
+.news-card {
+  width: 90%;                 /* Takes up 90% of the screen on small devices */
+  max-width: 400px;           /* But STOPS growing once it hits 400px on laptops */
+  margin: 2rem auto;          /* 32px top/bottom space, auto-centers horizontally */
+  border: 1px solid #ccc;     /* Pixels are fine for tiny borders */
+  border-radius: 8px;
+  overflow: hidden;           /* Chops off the sharp corners of the video inside! */
+}
+
+/* 2. Aspect Ratio for media */
+.video-placeholder {
+  background-color: darkred;
+  color: white;
+  aspect-ratio: 16 / 9;       /* Automatically creates a perfect widescreen rectangle */
+}
+
+/* 3. Using REM for spacing and fonts */
+.news-content {
+  padding: 1.5rem;            /* 24px padding that scales well */
+  height: 120px;              /* We deliberately made the box too short! */
+  overflow-y: auto;           /* Adds a vertical scrollbar ONLY because the text doesn't fit */
+}
+
+.news-content h2 {
+  font-size: 1.25rem;         /* 20px font */
+  margin-bottom: 0.5rem;      /* 8px space */
+}
